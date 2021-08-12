@@ -27,6 +27,7 @@ Install Octopus:
 
 ```shell
 $ git clone https://github.com/luntergroup/octopus.git
+$ pip install distro
 $ octopus/scripts/install.py --dependencies --forests
 $ echo 'export PATH='$(pwd)'/octopus/bin:$PATH' >> ~/.bash_profile
 $ source ~/.bash_profile
